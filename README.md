@@ -14,11 +14,6 @@ List any resources used here, or simply put `N/A` if not applicable.
 
 ## Verbal Collaboration
 
-| Student Name | CCID      |
-| ------------ | --------- |
-| `student`    | `student` |
-| `<Add more>` | `<CCID>`  |
-
-`N/A`
-
-i did this before lab 2 was due so i didnt have anyone to talk to :(
+| Student Name  | CCID      |
+| ------------- | --------- |
+| `N/A`         | `N/A` |
