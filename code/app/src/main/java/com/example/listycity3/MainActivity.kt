@@ -31,7 +31,8 @@ class MainActivity : ComponentActivity() {
                     CityListScreen(
                         cities = cityRepository.cities,
                         onAddCity = { cityRepository.addCities(it) },
-                        //onUpdateCity = { cityRepository.updateCities(it, it.) },
+                        // cant use `it' for 2 different args
+                        onUpdateCity = { old, new -> cityRepository.updateCities(old, new) },
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
